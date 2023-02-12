@@ -7,7 +7,7 @@ This code provides an implementation for evaluating the consistency of multi-lin
 We recommend using Anaconda for setting up the environment of experiments:
 
 ```python
-git clone 
+git clone https://github.com/twinkle0331/MultiBERTsConsistency.git
 cd MultiBERTsConsistency/
 conda create -n consistency python=3.8
 conda install pytorch==1.11.0 torchvision cudatoolkit=11.3 -c pytorch
@@ -19,9 +19,7 @@ pip install -r requirements.txt
 The code is organized into the following modules:
 
 - `scripts/`: Scripts for running experiments. 
-- `cca_svcca_pwcca.py`: This module contains the implementation of the Canonical Correlation Analysis (CCA), Singular Vector Canonical Correlation Analysis (SVCCA), and Pairwise Cosine Canonical Correlation Analysis (PWCCA) methods.
-- `utils.py`: This module contains helper functions for data loading, preprocessing, and evaluation.
-- `main.py`: This is the main script that ties everything together and provides an entry point for running the code.
+- `utils/`: This module contains functions for CCA,PWCCA,SVCCA.
 
 ## Fine-tuning models
 
