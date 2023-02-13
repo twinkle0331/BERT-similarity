@@ -1,6 +1,6 @@
 # MultiBERTsConsistency: A Code for Evaluating the Consistency of Multiple Pre-Trained Models
 
-This code provides an implementation for evaluating the consistency of multi-lingual pre-trained models, such as MultiBERT, RoBERTa, etc. The consistency of these models is evaluated using several methods, including Canonical Correlation Analysis (CCA), Singular Vector Canonical Correlation Analysis (SVCCA), and Projection-weighted Correlation Analysis (PWCCA), as well as linear regression and our proposed Invertible Neural Network (INN) method.
+This code provides an implementation for evaluating the consistency of multiple pre-trained models, such as BERT. The consistency of these models is evaluated using several methods, including Canonical Correlation Analysis (CCA), Singular Vector Canonical Correlation Analysis (SVCCA), and Projection-weighted Correlation Analysis (PWCCA), as well as linear regression and our proposed Invertible Neural Network (INN) method.
 
 ### Dependencies
 
