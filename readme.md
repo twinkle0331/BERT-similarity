@@ -1,4 +1,4 @@
-# MultiBERTsConsistency: A Code for Evaluating the Consistency of Multiple Pre-Trained Models
+# BERT-similarity: A Code for Evaluating the Invariance of Transformers' Representations
 
 This code provides an implementation for evaluating the consistency of multiple pre-trained models, such as BERT. The consistency of these models is evaluated using several methods, including Canonical Correlation Analysis (CCA), Singular Vector Canonical Correlation Analysis (SVCCA), and Projection-weighted Correlation Analysis (PWCCA), as well as linear regression and our proposed Invertible Neural Network (INN) method.
 
